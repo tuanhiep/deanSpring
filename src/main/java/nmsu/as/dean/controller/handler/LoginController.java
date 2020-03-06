@@ -1,6 +1,6 @@
-package nmsu.as.dean.controller;
+package nmsu.as.dean.controller.handler;
 
-import nmsu.as.dean.service.LoginService;
+import nmsu.as.dean.controller.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

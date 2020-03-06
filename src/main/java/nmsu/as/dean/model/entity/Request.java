@@ -1,4 +1,4 @@
-package nmsu.as.dean.entity;
+package nmsu.as.dean.model.entity;
 
 import lombok.Data;
 

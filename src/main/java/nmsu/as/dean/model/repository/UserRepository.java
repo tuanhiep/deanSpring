@@ -1,6 +1,6 @@
-package nmsu.as.dean.repository;
+package nmsu.as.dean.model.repository;
 
-import nmsu.as.dean.entity.User;
+import nmsu.as.dean.model.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 
