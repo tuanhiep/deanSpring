@@ -5,11 +5,14 @@ import lombok.Data;
 import javax.persistence.*;
 import java.io.Serializable;
 
-@Table(name = "User")
 @Entity
+@Table(name = "User")
 @Data
 public class User implements Serializable {
     private static final long serialVersionUID = 1L;
+
+    @Column(name = "email", nullable = false)
+    private String email;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -18,9 +21,6 @@ public class User implements Serializable {
 
     @Column(name = "name", nullable = false)
     private String name;
-
-    @Column(name = "email", nullable = false)
-    private String email;
 
     @Column(name = "phone")
     private String phone;
