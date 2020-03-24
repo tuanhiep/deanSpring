@@ -8,7 +8,7 @@ import java.io.Serializable;
 @Entity
 @Data
 @Table(name = "User_has_Department")
-@IdClass(UserHasDepartment.class)
+@IdClass(UserHasDepartment.class) // i needed to add this line manually
 public class UserHasDepartment implements Serializable {
     private static final long serialVersionUID = 1L;
 
