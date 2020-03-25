@@ -18,9 +18,8 @@ public class RequestController {
 
     @RequestMapping(value = "/request", method = RequestMethod.GET)
     public String showRequestPage(ModelMap model) {
-
-        service.findAll();
-        return "welcome";
+        model.put("allRequests", service.findAll());
+        return "request";
     }
 
 }

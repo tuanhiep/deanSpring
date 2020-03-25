@@ -25,5 +25,19 @@ public class User implements Serializable {
     @Column(name = "phone")
     private String phone;
 
-    
+    public String getEmail() {
+        return email;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
 }
