@@ -219,6 +219,7 @@ function checkVolunteered(value){
 
 }
 
+
 function checkWear(value){
 
     if(value=="yes"){
